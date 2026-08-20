@@ -48,12 +48,17 @@ export const setPageMeta = ({
   ensureMeta('property', 'og:description', description)
   ensureMeta('property', 'og:url', url)
   ensureMeta('property', 'og:image', image)
+  ensureMeta('property', 'og:image:type', 'image/png')
+  ensureMeta('property', 'og:image:width', '1200')
+  ensureMeta('property', 'og:image:height', '630')
+  ensureMeta('property', 'og:image:alt', 'Tapseed Payments — Activating Africa\'s Digital Economy')
   ensureMeta('property', 'og:type', 'website')
 
   ensureMeta('name', 'twitter:card', 'summary_large_image')
   ensureMeta('name', 'twitter:title', fullTitle)
   ensureMeta('name', 'twitter:description', description)
   ensureMeta('name', 'twitter:image', image)
+  ensureMeta('name', 'twitter:image:alt', 'Tapseed Payments — Activating Africa\'s Digital Economy')
 
   document.documentElement.setAttribute('data-meta-ready', 'true')
 }
