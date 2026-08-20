@@ -12,7 +12,7 @@ const Hero = () => {
           <img
             src="/hero-image.webp"
             alt="Payment methods on a mobile device"
-            width={900}
+            width={1200}
             height={900}
             fetchPriority="high"
             decoding="async"
